@@ -1,0 +1,128 @@
+﻿body {
+    background-color:aqua;
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    margin-bottom:0px;
+}
+
+.accordian:checked ~ .panel {
+    max-height: 100%;
+}
+
+.sidebar {
+    background-color: white;
+    width: 10%;
+    min-width: 10em;
+    float: left;
+    margin: auto;
+    margin-right: 1em;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+label.sidebar-header {
+    font-size: medium;
+    font-weight: 200;
+}
+
+#headyboi label {
+    font-size: medium;
+    font-weight: 200;
+}
+
+input[type="checkbox"]
+{
+    margin-top:0px;
+    margin-right:1px;
+}
+
+.browse {
+    background:white;
+    width:80%;
+    position:relative;
+    float:left;
+    margin:auto;
+    border-radius:20px;
+    padding:1em;
+    text-align:justify;
+}
+
+.navbar-header {
+    height:5em;
+}
+
+.body-content {
+    width: auto;
+    margin: 8em;
+    margin-top: 2em;
+    min-width:50em;
+}
+
+.car-container {
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 1px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-top: auto;
+    padding: 0.5em;
+    display:inline-block;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+
+    .car-container:hover {
+        border-color: dodgerblue;
+        box-shadow: dodgerblue 5px 5px 10px;
+    }
+car-container:hover h4 {
+    font-weight:500;
+}
+
+.thumbnail {
+    border:hidden;
+    max-height: 9.325em;
+    max-width: 200em;
+}
+
+#buttonPrev button {
+    display: inline-block;
+}
+
+#buttonNext button {
+    display: inline-block;
+}
+
+.browse-footer{
+    display:flex;
+    justify-content:space-between;
+}
+
+.manage {
+    align-items:center;
+    max-width: 80%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    position: relative;
+    
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.manage-inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    
+}
